@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+.topnav
+{
+    background-color: #000000;
+    color: #fff;
+}
+.topnav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 2%;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+}
+.topnav a:h:-moz-drag-over{
+    background-color: #fff;
+    color:#000;
+}
+.header{
+    background: linear-gradient(rgb(0,0,0,0.8),rgb(255,255,255,0.8));/*background: linear-gradient(black, white), url("LINK.com");*/
+   background-size: cover;
+   background-repeat: no-repeat;
+    height:100vh;
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    
+}
+.header h1{
+ 
+    text-transform: uppercase;
+    padding: 20%;
+}
+.row:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.column{
+    float:left;
+    width:50%;
+}
+#about{
+    padding: 10%;
+}
+#about h1{
+    font-family: Arial;
+    font-size: 45px;
+    margin:2px;
+}
+#about h3{
+    font-size: 30px;
+    margin:2px;
+}
+
+#about p{
+    font-size: 25px;
+    margin:2px;
+}
+#about img{
+    width:90%;
+    height:500px;
+}
+
+
+
+#menu{
+    padding: 10%;
+}
+#menu h1{
+    font-family: Arial;
+    font-size: 45px;
+    margin:10px;
+}
+#menu h5{
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+
+#menu p{
+    font-size: 18px;
+    margin:10px;
+}
+#menu img{
+    width:90%;
+    height:500px;
+}
+
+
+#contact{
+    padding: 10%;
+}
+#contact h1{
+    font-family: Arial;
+    font-size: 45px;
+    margin:2px;
+}
+#contact h3{
+    font-size: 30px;
+    margin:2px;
+}
+
+#contact p{
+    font-size: 25px;
+    margin:2px;
+}
+
+input[type="text"],input[type="tel"],input[type="email"]
+{
+    width:100%;
+    height:20px;
+    font-size: 20px;
+    margin: 1%;
+}
+.indicator{
+    background-color: #DC143C;
+    color:white;
+    padding: 2%;
+    border-radius:20px;
+}
