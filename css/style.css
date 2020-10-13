@@ -24,7 +24,8 @@
     color:#000;
 }
 .header{
-    background: linear-gradient(rgb(0,0,0,0.8),rgb(255,255,255,0.8));/*background: linear-gradient(black, white), url("LINK.com");*/
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(255, 255, 255, 0.8)),
+    url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg");
    background-size: cover;
    background-repeat: no-repeat;
     height:100vh;
@@ -71,58 +72,70 @@
 
 
 
-#menu{
+#menu {
     padding: 10%;
-}
-#menu h1{
+  }
+  
+  #menu h1 {
     font-family: Arial;
     font-size: 45px;
-    margin:10px;
-}
-#menu h5{
-    font-size: 20px;
+    margin: 10px;
+  }
+  #menu h5 {
     margin-top: 5%;
-}
-
-
-#menu p{
+    
+    font-size: 20px;
+  }
+  #menu p {
     font-size: 18px;
-    margin:10px;
-}
-#menu img{
-    width:90%;
-    height:500px;
-}
-
-
-#contact{
+    
+    margin: 9px;
+  }
+  
+  #menu img {
+    width: 90%;
+    height: 500px;
+    padding-left: 2%;
+  }
+  
+  #contact {
     padding: 10%;
-}
-#contact h1{
+  }
+  
+  #contact h1 {
     font-family: Arial;
     font-size: 45px;
-    margin:2px;
-}
-#contact h3{
+    margin: 2px;
+  }
+  #contact h3 {
     font-size: 30px;
-    margin:2px;
-}
-
-#contact p{
+    margin: 2px;
+  }
+  #contact p {
     font-size: 25px;
-    margin:2px;
-}
-
-input[type="text"],input[type="tel"],input[type="email"]
-{
-    width:100%;
-    height:20px;
+    margin: 2px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    width: 100%;
+    height: 20px;
     font-size: 20px;
     margin: 1%;
-}
-.indicator{
-    background-color: #DC143C;
-    color:white;
-    padding: 2%;
-    border-radius:20px;
-}
+  }
+  
+  .indicator {
+    background-color: #dc143c;
+  
+    color: #fff;
+    padding: 0.8%;
+    border-radius: 20px;
+  }
+  .priceIndicator{
+    background-color: #25dc14;
+    color: #fff;
+    padding: 0.6%;
+    border-radius: 15px;
+
+  }
